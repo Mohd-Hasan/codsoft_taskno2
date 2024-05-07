@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hasan{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav img{
+    border-radius: 110%;
+    height: 130px;
+    width: 130px;
+   
+}
+.details{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.details h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.details p{
+    color: #a6a0a0;
+    line-height: 22px;
+}
+.details a{
+    background: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.image{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-bottom: 7%;
+}
+image.shape{
+   height: 15%;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s,;
+}
+#h1{
+    height: 15px;
+    background:blue;
+    margin-top: 10.5%;
+}
+h2{
+   
+    margin-top: 2%;
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+.skill{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+ul li{
+    margin-top: 10px;
+    color: white;
+    text-decoration:none;
+    margin-left: 20px;
+}
+#line{
+    height: 15px;
+    background:blue;
+    margin-top: 10.5%;
+}
+
+#titel{
+    font-size: large;
+   text-decoration: underline;
+   margin-top: 15%;
+}
+.project{
+    background: black;
+}
+#discription{
+    margin-top: 15px;
+}
+.game{
+    margin-top: 15px;
+    height: 600px;
+    width: 1000px;
+margin-left: 22%;
+margin-top: 8%;
+
+}
+
+#projectline{
+    height: 15px;
+    background:blue;
+    margin-top: 10.5%;
+
+}
+#titel{
+    margin-left: 10px;
+}
+#discription{
+    margin-left: 10px;
+}
+#lineproject{
+    height: 15px;
+    background:blue;
+    margin-top: 10.5%;
+}
+.contact{
+    background: black;
+    height: 100%;
+    width: 100%;
+ 
+}
+#info{
+    text-align: center;
+}
+.address{
+    background: white;;
+  width: fit-content;
+  border-radius: 50%;
+
+}
+.address {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  
+}
+/* .contact{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+} */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.contact ul li{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   margin-top: 20px;
+}
+
+#Information{
+    height: 15px;
+    background:blue;
+    margin-top: 10.5%
+}
+#footer{
+    text-align: center;
+    margin-top: 5%;
+}
+.lastpart{
+    width: 100%;
+    height: 100%;
+    background: black;
+  
+   
+}
+.lastimg{
+    background: wheat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.lastpart ol li{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+   
+}
+.end{
+display: flex;
+justify-content: center;
+margin-top: 2%;
+}
